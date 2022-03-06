@@ -20,7 +20,7 @@ function Write({ setLastTextNumber }) {
     setPassword(event.target.value)
   }
 
-  //click하면 api 쏘는 함수
+  //click하면 api 쏘는 함수 sendWrite
   function sendWrite() {
     const text = textareaRef.current.value
     
