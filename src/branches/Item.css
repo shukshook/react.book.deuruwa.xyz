@@ -1,0 +1,38 @@
+div.Item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  margin: 10px auto;
+}
+
+div.Item > div.no {
+  width: 50px;  
+}
+
+div.Item > div.name {
+  width: 100px;
+}
+
+div.Item > div.text {
+  width: auto;
+  min-width: 200px;
+  text-align: center;
+}
+
+div.Item > div.date {
+  width: 140px;
+}
+
+div.Item > div.div-love-button > button.love-button {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0;
+  width: 30px;
+  font-size: 15pt;
+  text-align: center;  
+}
+
+div.Item > div.love {
+  width: 50px;
+  text-align: center;
+}
